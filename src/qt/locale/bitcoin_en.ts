@@ -996,7 +996,7 @@ Address: %4
     <message>
         <location line="+118"/>
         <source>分红:</source>
-        <translation>Stake:</translation>
+        <translation>分红:</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -1005,22 +1005,22 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Unconfirmed:</source>
-        <translation>Unconfirmed:</translation>
+        <source>未确认:</source>
+        <translation>未确认:</translation>
     </message>
     <message>
         <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Wallet</translation>
+        <source>钱包</source>
+        <translation>钱包</translation>
     </message>
     <message>
         <location line="+124"/>
-        <source>Immature:</source>
-        <translation>Immature:</translation>
+        <source>未成熟的:</source>
+        <translation>未成熟的:</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>开采的平衡，还没有成熟</source>
         <translation>Mined balance that has not yet matured</translation>
     </message>
     <message>
@@ -1030,22 +1030,22 @@ Address: %4
     </message>
     <message>
         <location line="-118"/>
-        <source>Your current balance</source>
-        <translation>Your current balance</translation>
+        <source>您当前的余额</source>
+        <translation>您当前的余额</translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <source>总有尚未得到证实，也没有对目前的余额计算交易</source>
         <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</translation>
     </message>
     <message>
         <location line="+134"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>总硬币是被放样，并且还没有对目前的余额计算...</source>
         <translation>Total of coins that was staked, and do not yet count toward the current balance</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Total number of transactions in wallet</source>
+        <source>交易的钱包总数</source>
         <translation>Total number of transactions in wallet</translation>
     </message>
     <message>
@@ -1059,32 +1059,32 @@ Address: %4
     <name>QRCodeDialog</name>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
+        <source>QR码对话</source>
         <translation>QR Code Dialog</translation>
     </message>
     <message>
         <location line="+59"/>
-        <source>Request Payment</source>
+        <source>要求付款</source>
         <translation>Request Payment</translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Amount:</source>
+        <source>量:</source>
         <translation>Amount:</translation>
     </message>
     <message>
         <location line="-44"/>
-        <source>Label:</source>
+        <source>标签:</source>
         <translation>Label:</translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Message:</source>
+        <source>信息:</source>
         <translation>Message:</translation>
     </message>
     <message>
         <location line="+71"/>
-        <source>&amp;Save As...</source>
+        <source>&amp;另存为...</source>
         <translation>&amp;Save As...</translation>
     </message>
     <message>
@@ -1094,7 +1094,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
+        <source>输入的金额无效，请检查.</source>
         <translation>The entered amount is invalid, please check.</translation>
     </message>
     <message>
@@ -1104,7 +1104,7 @@ Address: %4
     </message>
     <message>
         <location line="+25"/>
-        <source>Save QR Code</source>
+        <source>除QR码</source>
         <translation>Save QR Code</translation>
     </message>
     <message>
@@ -1136,67 +1136,67 @@ Address: %4
     </message>
     <message>
         <location line="-217"/>
-        <source>Client version</source>
+        <source>客户端版本</source>
         <translation>Client version</translation>
     </message>
     <message>
         <location line="-45"/>
-        <source>&amp;Information</source>
+        <source>&amp;信息</source>
         <translation>&amp;Information</translation>
     </message>
     <message>
         <location line="+68"/>
-        <source>Using OpenSSL version</source>
+        <source>使用OpenSSL版本</source>
         <translation>Using OpenSSL version</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Startup time</source>
+        <source>启动时间</source>
         <translation>Startup time</translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Network</source>
+        <source>网络</source>
         <translation>Network</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Number of connections</source>
+        <source>连接数</source>
         <translation>Number of connections</translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>On testnet</source>
+        <source>上TESTNET</source>
         <translation>On testnet</translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>Block chain</source>
+        <source>块链</source>
         <translation>Block chain</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current number of blocks</source>
+        <source>块的当前数量</source>
         <translation>Current number of blocks</translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>Estimated total blocks</source>
+        <source>预计总块</source>
         <translation>Estimated total blocks</translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>Last block time</source>
+        <source>最后一个数据块的时间</source>
         <translation>Last block time</translation>
     </message>
     <message>
         <location line="+52"/>
-        <source>&amp;Open</source>
+        <source>&amp;开</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Command-line options</source>
+        <source>命令行选项</source>
         <translation>Command-line options</translation>
     </message>
     <message>
