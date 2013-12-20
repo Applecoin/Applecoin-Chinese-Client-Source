@@ -11,13 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Address Book</string>
+   <string>通讯录</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="labelExplanation">
      <property name="text">
-      <string>These are your Applecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
+      <string>这些是接收付款您的APC地址。你可能想给一个不同的向每个发件人这样你就可以跟踪谁支付你的。</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -33,7 +33,7 @@
       <enum>Qt::CustomContextMenu</enum>
      </property>
      <property name="toolTip">
-      <string>Double-click to edit address or label</string>
+      <string>双击编辑地址或标号</string>
      </property>
      <property name="tabKeyNavigation">
       <bool>false</bool>
@@ -60,10 +60,10 @@
      <item>
       <widget class="QPushButton" name="newAddressButton">
        <property name="toolTip">
-        <string>Create a new address</string>
+        <string>创建一个新的地址</string>
        </property>
        <property name="text">
-        <string>&amp;New Address</string>
+        <string>&amp;新地址</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -74,10 +74,10 @@
      <item>
       <widget class="QPushButton" name="copyToClipboard">
        <property name="toolTip">
-        <string>Copy the currently selected address to the system clipboard</string>
+        <string>当前选定的地址复制到系统剪贴板</string>
        </property>
        <property name="text">
-        <string>&amp;Copy Address</string>
+        <string>&amp;拷贝地址</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -88,7 +88,7 @@
      <item>
       <widget class="QPushButton" name="showQRCode">
        <property name="text">
-        <string>Show &amp;QR Code</string>
+        <string>显示QR码</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -99,10 +99,10 @@
      <item>
       <widget class="QPushButton" name="signMessage">
        <property name="toolTip">
-        <string>Sign a message to prove you own a Applecoin address</string>
+        <string>注册一个消息，证明你拥有一个Applecoin地址</string>
        </property>
        <property name="text">
-        <string>Sign &amp;Message</string>
+        <string>注册信息</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -113,10 +113,10 @@
      <item>
       <widget class="QPushButton" name="verifyMessage">
        <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified Applecoin address</string>
+        <string>验证信息，以确保它与一个指定地址的APC签订</string>
        </property>
        <property name="text">
-        <string>&amp;Verify Message</string>
+        <string>&amp;验证邮件</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -127,10 +127,10 @@
      <item>
       <widget class="QPushButton" name="deleteButton">
        <property name="toolTip">
-        <string>Delete the currently selected address from the list</string>
+        <string>从列表中删除当前选定的地址</string>
        </property>
        <property name="text">
-        <string>&amp;Delete</string>
+        <string>&amp;删除</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">

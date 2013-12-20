@@ -165,7 +165,7 @@
             <string>Reset all sign message fields</string>
            </property>
            <property name="text">
-            <string>Clear &amp;All</string>
+            <string>清除所有</string>
            </property>
            <property name="icon">
             <iconset resource="../bitcoin.qrc">
@@ -311,7 +311,7 @@
             <string>Reset all verify message fields</string>
            </property>
            <property name="text">
-            <string>Clear &amp;All</string>
+            <string>清除所有</string>
            </property>
            <property name="icon">
             <iconset resource="../bitcoin.qrc">

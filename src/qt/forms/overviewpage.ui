@@ -37,20 +37,20 @@
              </font>
             </property>
             <property name="text">
-             <string>Wallet</string>
+             <string>钱包</string>
             </property>
            </widget>
           </item>
           <item>
            <widget class="QLabel" name="labelWalletStatus">
             <property name="toolTip">
-             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Applecoin network after a connection is established, but this process has not completed yet.</string>
+             <string>所显示的信息可能会过时。你的钱包会自动与APC网络同步建立连接之后，但这一过程尚未完成。</string>
             </property>
             <property name="styleSheet">
              <string notr="true">QLabel { color: red; }</string>
             </property>
             <property name="text">
-             <string notr="true">(out of sync)</string>
+             <string notr="true">(不同步)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -102,7 +102,7 @@
              <cursorShape>IBeamCursor</cursorShape>
             </property>
             <property name="toolTip">
-             <string>Your current balance</string>
+             <string>您当前的余额</string>
             </property>
             <property name="text">
              <string notr="true">0 APC</string>
@@ -131,7 +131,7 @@
              <cursorShape>IBeamCursor</cursorShape>
             </property>
             <property name="toolTip">
-             <string>Total of coins that was staked, and do not yet count toward the current balance</string>
+             <string>总硬币是被放样，并且还没有对目前的余额计算</string>
             </property>
             <property name="text">
              <string notr="true">0 APC</string>
@@ -160,7 +160,7 @@
              <cursorShape>IBeamCursor</cursorShape>
             </property>
             <property name="toolTip">
-             <string>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</string>
+             <string>总有尚未得到证实，也没有对目前的余额计算交易</string>
             </property>
             <property name="text">
              <string notr="true">0 APC</string>
@@ -186,7 +186,7 @@
              </font>
             </property>
             <property name="toolTip">
-             <string>Mined balance that has not yet matured</string>
+             <string>开采，还没有成熟</string>
             </property>
             <property name="text">
              <string notr="true">0 APC</string>
@@ -206,7 +206,7 @@
           <item row="4" column="1">
            <widget class="QLabel" name="labelNumTransactions">
             <property name="toolTip">
-             <string>Total number of transactions in wallet</string>
+             <string>交易的钱包总数</string>
             </property>
             <property name="text">
              <string notr="true">0</string>
@@ -256,13 +256,13 @@
           <item>
            <widget class="QLabel" name="labelTransactionsStatus">
             <property name="toolTip">
-             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Applecoin network after a connection is established, but this process has not completed yet.</string>
+             <string>所显示的信息可能会过时。你的钱包会自动与APC网络同步建立连接之后，但这一过程尚未完成。</string>
             </property>
             <property name="styleSheet">
              <string notr="true">QLabel { color: red; }</string>
             </property>
             <property name="text">
-             <string notr="true">(out of sync)</string>
+             <string notr="true">(不同步)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

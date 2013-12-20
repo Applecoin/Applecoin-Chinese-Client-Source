@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Applecoin - Debug window</string>
+   <string>APC - 调试窗口</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -21,7 +21,7 @@
      </property>
      <widget class="QWidget" name="tab_info">
       <attribute name="title">
-       <string>&amp;Information</string>
+       <string>&amp;信息</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout" columnstretch="0,1">
        <property name="horizontalSpacing">
@@ -36,14 +36,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Applecoin Core</string>
+          <string>APC 核心</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>Client name</string>
+          <string>客户名称</string>
          </property>
         </widget>
        </item>
@@ -66,7 +66,7 @@
        <item row="2" column="0">
         <widget class="QLabel" name="label_6">
          <property name="text">
-          <string>Client version</string>
+          <string>客户端版本</string>
          </property>
         </widget>
        </item>
@@ -89,7 +89,7 @@
        <item row="3" column="0">
         <widget class="QLabel" name="label_14">
          <property name="text">
-          <string>Using OpenSSL version</string>
+          <string>使用OpenSSL版本</string>
          </property>
          <property name="indent">
           <number>10</number>
@@ -115,7 +115,7 @@
        <item row="4" column="0">
         <widget class="QLabel" name="label_12">
          <property name="text">
-          <string>Build date</string>
+          <string>建立日期</string>
          </property>
         </widget>
        </item>
@@ -138,7 +138,7 @@
        <item row="5" column="0">
         <widget class="QLabel" name="label_13">
          <property name="text">
-          <string>Startup time</string>
+          <string>启动时间</string>
          </property>
         </widget>
        </item>
@@ -167,14 +167,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Network</string>
+          <string>网络</string>
          </property>
         </widget>
        </item>
        <item row="7" column="0">
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>Number of connections</string>
+          <string>连接数</string>
          </property>
         </widget>
        </item>
@@ -197,7 +197,7 @@
        <item row="8" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>On testnet</string>
+          <string>上TESTNET</string>
          </property>
         </widget>
        </item>
@@ -220,14 +220,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Block chain</string>
+          <string>块链</string>
          </property>
         </widget>
        </item>
        <item row="10" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>Current number of blocks</string>
+          <string>块的当前数量</string>
          </property>
         </widget>
        </item>
@@ -250,7 +250,7 @@
        <item row="11" column="0">
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>Estimated total blocks</string>
+          <string>预计总块</string>
          </property>
         </widget>
        </item>
@@ -273,7 +273,7 @@
        <item row="12" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>Last block time</string>
+          <string>最后一个数据块的时间</string>
          </property>
         </widget>
        </item>
@@ -315,17 +315,17 @@
           </font>
          </property>
          <property name="text">
-          <string>Debug log file</string>
+          <string>调试日志文件</string>
          </property>
         </widget>
        </item>
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the Applecoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>O从目前的数据目录中打开APC的调试日志文件。这可能需要几秒钟的大型日志文件。</string>
          </property>
          <property name="text">
-          <string>&amp;Open</string>
+          <string>&amp;开</string>
          </property>
          <property name="autoDefault">
           <bool>false</bool>
@@ -341,14 +341,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Command-line options</string>
+          <string>命令行选项</string>
          </property>
         </widget>
        </item>
        <item row="17" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the Applecoin-Qt help message to get a list with possible Applecoin command-line options.</string>
+          <string>显示APC-Qt的帮助信息获取列表可能与APC的命令行选项。</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>
@@ -375,7 +375,7 @@
      </widget>
      <widget class="QWidget" name="tab_console">
       <attribute name="title">
-       <string>&amp;Console</string>
+       <string>&amp;控制台</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <property name="spacing">
@@ -424,7 +424,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Clear console</string>
+            <string>清除控制台</string>
            </property>
            <property name="text">
             <string/>

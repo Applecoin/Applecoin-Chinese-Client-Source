@@ -126,7 +126,7 @@
            </sizepolicy>
           </property>
           <property name="text">
-           <string>Amount:</string>
+           <string>数量:</string>
           </property>
           <property name="textFormat">
            <enum>Qt::PlainText</enum>

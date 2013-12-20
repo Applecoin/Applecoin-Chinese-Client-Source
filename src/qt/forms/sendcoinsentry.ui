@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>表格</string>
   </property>
   <property name="frameShape">
    <enum>QFrame::StyledPanel</enum>
@@ -26,7 +26,7 @@
    <item row="5" column="0">
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>A&amp;mount:</string>
+      <string>数量:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -39,7 +39,7 @@
    <item row="3" column="0">
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Pay &amp;To:</string>
+      <string>发送给</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -63,7 +63,7 @@
         <bool>true</bool>
        </property>
        <property name="toolTip">
-        <string>Enter a label for this address to add it to your address book</string>
+        <string>输入该地址的标签，将其添加到您的通讯录</string>
        </property>
       </widget>
      </item>
@@ -72,7 +72,7 @@
    <item row="4" column="0">
     <widget class="QLabel" name="label_4">
      <property name="text">
-      <string>&amp;Label:</string>
+      <string>标签:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -90,7 +90,7 @@
      <item>
       <widget class="QValidatedLineEdit" name="payTo">
        <property name="toolTip">
-        <string>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</string>
+        <string>到付款发送到地址  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</string>
        </property>
        <property name="maxLength">
         <number>34</number>
@@ -100,7 +100,7 @@
      <item>
       <widget class="QToolButton" name="addressBookButton">
        <property name="toolTip">
-        <string>Choose address from address book</string>
+        <string>从地址簿中选择地址</string>
        </property>
        <property name="text">
         <string/>
@@ -117,7 +117,7 @@
      <item>
       <widget class="QToolButton" name="pasteButton">
        <property name="toolTip">
-        <string>Paste address from clipboard</string>
+        <string>从剪贴板中粘贴地址</string>
        </property>
        <property name="text">
         <string/>
@@ -134,7 +134,7 @@
      <item>
       <widget class="QToolButton" name="deleteButton">
        <property name="toolTip">
-        <string>Remove this recipient</string>
+        <string>删除此收件人</string>
        </property>
        <property name="text">
         <string/>

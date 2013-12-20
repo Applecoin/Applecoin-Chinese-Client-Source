@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Options</string>
+   <string>选项</string>
   </property>
   <property name="modal">
    <bool>true</bool>
@@ -27,13 +27,13 @@
      </property>
      <widget class="QWidget" name="tabMain">
       <attribute name="title">
-       <string>&amp;Main</string>
+       <string>&amp;主</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Main">
        <item>
         <widget class="QLabel" name="transactionFeeInfoLabel">
          <property name="text">
-          <string>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</string>
+          <string>每KB可选的交易手续费，有助于确保您的交易快速处理。大多数交易都是1 KB。费0.01推荐。</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -48,13 +48,13 @@
          <item>
           <widget class="QLabel" name="transactionFeeLabel">
            <property name="text">
-            <string>Pay transaction &amp;fee</string>
+            <string>收费及交易费用</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
            </property>
            <property name="buddy">
-            <cstring>transactionFee</cstring>
+            <cstring>交易费</cstring>
            </property>
           </widget>
          </item>
@@ -79,17 +79,17 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Applecoin after logging in to the system.</string>
+          <string>登录到系统后自动启动的APC。</string>
          </property>
          <property name="text">
-          <string>&amp;Start Applecoin on system login</string>
+          <string>&amp;APC启动系统登录</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="detachDatabases">
          <property name="toolTip">
-          <string>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</string>
+          <string>分离块和地址数据库在关机。这意味着它们可以被移动到另一个数据目录，但它会减慢关断。钱包总是分离。</string>
          </property>
          <property name="text">
           <string>&amp;Detach databases at shutdown</string>
@@ -113,7 +113,7 @@
      </widget>
      <widget class="QWidget" name="tabNetwork">
       <attribute name="title">
-       <string>&amp;Network</string>
+       <string>&amp;网络</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Network">
        <item>

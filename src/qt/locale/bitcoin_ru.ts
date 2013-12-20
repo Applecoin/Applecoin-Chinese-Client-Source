@@ -64,7 +64,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Applecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>这些是接收付款您的APC地址。你可能想给一个不同的向每个发件人这样你就可以跟踪谁支付你的。</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -1390,13 +1390,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Pay &amp;To:</source>
+        <source>发送给</source>
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
         <location line="+24"/>
         <location filename="../sendcoinsentry.cpp" line="+25"/>
-        <source>Enter a label for this address to add it to your address book</source>
+        <source>输入该地址的标签，将其添加到您的通讯录</source>
         <translation>Введите метку для данного адреса (для добавления в адресную книгу)</translation>
     </message>
     <message>
@@ -1436,7 +1436,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applecoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
+        <source>进入APC的地址 (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
         <translation>Введите Applecoin-адрес (например Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
     </message>
 </context>
@@ -1540,7 +1540,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applecoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
+        <source>进入APC的地址 (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</source>
         <translation>Введите адрес Applecoin (напр. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)</translation>
     </message>
     <message>

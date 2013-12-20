@@ -24,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Applecoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)"));
+    ui->addressIn_SM->setPlaceholderText(tr("进入APC的地址 (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Applecoin address (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)"));
+    ui->addressIn_VM->setPlaceholderText(tr("进入APC的地址 (e.g. Y9H3tANhMroxU4rCre4bkoeDRhHKRSGwsi)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter Applecoin signature"));
 #endif
 

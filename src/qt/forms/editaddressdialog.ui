@@ -22,7 +22,7 @@
      <item row="0" column="0">
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>&amp;Label</string>
+        <string>&amp;标签</string>
        </property>
        <property name="buddy">
         <cstring>labelEdit</cstring>
@@ -32,14 +32,14 @@
      <item row="0" column="1">
       <widget class="QLineEdit" name="labelEdit">
        <property name="toolTip">
-        <string>The label associated with this address book entry</string>
+        <string>这个地址簿条目相关的标签</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>&amp;Address</string>
+        <string>&amp;地址</string>
        </property>
        <property name="buddy">
         <cstring>addressEdit</cstring>
@@ -49,7 +49,7 @@
      <item row="1" column="1">
       <widget class="QLineEdit" name="addressEdit">
        <property name="toolTip">
-        <string>The address associated with this address book entry. This can only be modified for sending addresses.</string>
+        <string>这个地址簿条目相关的地址。这只能修改发送地址。</string>
        </property>
       </widget>
      </item>

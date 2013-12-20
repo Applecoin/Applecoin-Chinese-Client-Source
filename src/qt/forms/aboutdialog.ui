@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About Applecoin</string>
+   <string>关于APC</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
@@ -50,7 +50,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;b&gt;Applecoin&lt;/b&gt; version</string>
+          <string>&lt;b&gt;APC&lt;/b&gt; 版本</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -105,11 +105,11 @@
        </property>
        <property name="text">
         <string>
-This is experimental software.
+这是实验性的软件。
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+下MIT/X11软件许可证分发，请参阅随附的文件复制或http://www.opensource.org/licenses/mit-license.php。
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</string>
+本产品包含由OpenSSL Project为OpenSSL工具包（http://www.openssl.org/）和由Eric Young写的加密软件（eay@cryptsoft.com）和书面托马斯伯纳德UPnP的应用软件开发的软件。</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
