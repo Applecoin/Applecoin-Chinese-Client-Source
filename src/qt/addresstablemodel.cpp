@@ -139,7 +139,7 @@ public:
 AddressTableModel::AddressTableModel(CWallet *wallet, WalletModel *parent) :
     QAbstractTableModel(parent),walletModel(parent),wallet(wallet),priv(0)
 {
-    columns << tr("Label") << tr("Address");
+    columns << tr("标签") << tr("地址");
     priv = new AddressTablePriv(wallet, this);
     priv->refreshAddressTable();
 }
@@ -175,7 +175,7 @@ QVariant AddressTableModel::data(const QModelIndex &index, int role) const
         case Label:
             if(rec->label.isEmpty() && role == Qt::DisplayRole)
             {
-                return tr("(no label)");
+                return tr("(没有标签)");
             }
             else
             {

@@ -153,7 +153,7 @@
         <string>确认发送动作</string>
        </property>
        <property name="text">
-        <string>S&amp;结束</string>
+        <string>&amp;结束</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">

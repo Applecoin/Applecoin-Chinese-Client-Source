@@ -52,13 +52,13 @@ TransactionView::TransactionView(QWidget *parent) :
 #else
     dateWidget->setFixedWidth(120);
 #endif
-    dateWidget->addItem(tr("All"), All);
-    dateWidget->addItem(tr("Today"), Today);
-    dateWidget->addItem(tr("This week"), ThisWeek);
-    dateWidget->addItem(tr("This month"), ThisMonth);
-    dateWidget->addItem(tr("Last month"), LastMonth);
-    dateWidget->addItem(tr("This year"), ThisYear);
-    dateWidget->addItem(tr("Range..."), Range);
+    dateWidget->addItem(tr("所有"), All);
+    dateWidget->addItem(tr("今天"), Today);
+    dateWidget->addItem(tr("本星期"), ThisWeek);
+    dateWidget->addItem(tr("这个月"), ThisMonth);
+    dateWidget->addItem(tr("上个月"), LastMonth);
+    dateWidget->addItem(tr("今年"), ThisYear);
+    dateWidget->addItem(tr("范围..."), Range);
     hlayout->addWidget(dateWidget);
 
     typeWidget = new QComboBox(this);
@@ -68,28 +68,30 @@ TransactionView::TransactionView(QWidget *parent) :
     typeWidget->setFixedWidth(120);
 #endif
 
-    typeWidget->addItem(tr("All"), TransactionFilterProxy::ALL_TYPES);
-    typeWidget->addItem(tr("Received with"), TransactionFilterProxy::TYPE(TransactionRecord::RecvWithAddress) |
+    typeWidget->addItem(tr("所有"), TransactionFilterProxy::ALL_TYPES);
+    typeWidget->addItem(tr("与接收"), TransactionFilterProxy::TYPE(TransactionRecord::RecvWithAddress) |
                                         TransactionFilterProxy::TYPE(TransactionRecord::RecvFromOther));
-    typeWidget->addItem(tr("Sent to"), TransactionFilterProxy::TYPE(TransactionRecord::SendToAddress) |
+    typeWidget->addItem(tr("发送到"), TransactionFilterProxy::TYPE(TransactionRecord::SendToAddress) |
                                   TransactionFilterProxy::TYPE(TransactionRecord::SendToOther));
-    typeWidget->addItem(tr("To yourself"), TransactionFilterProxy::TYPE(TransactionRecord::SendToSelf));
-    typeWidget->addItem(tr("Mined"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
-    typeWidget->addItem(tr("Other"), TransactionFilterProxy::TYPE(TransactionRecord::Other));
+    typeWidget->addItem(tr("给自己"), TransactionFilterProxy::TYPE(TransactionRecord::SendToSelf));
+    typeWidget->addItem(tr("开采"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
+    typeWidget->addItem(tr("其他"), TransactionFilterProxy::TYPE(TransactionRecord::Other));
+
+    hlayout->addWidget(typeWidget);
 
     hlayout->addWidget(typeWidget);
 
     addressWidget = new QLineEdit(this);
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    addressWidget->setPlaceholderText(tr("Enter address or label to search"));
+    addressWidget->setPlaceholderText(tr("输入网址或标签搜索"));
 #endif
     hlayout->addWidget(addressWidget);
 
     amountWidget = new QLineEdit(this);
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    amountWidget->setPlaceholderText(tr("Min amount"));
+    amountWidget->setPlaceholderText(tr("最小量"));
 #endif
 #ifdef Q_OS_MAC
     amountWidget->setFixedWidth(97);
@@ -123,11 +125,11 @@ TransactionView::TransactionView(QWidget *parent) :
     transactionView = view;
 
     // Actions
-    QAction *copyAddressAction = new QAction(tr("Copy address"), this);
-    QAction *copyLabelAction = new QAction(tr("Copy label"), this);
-    QAction *copyAmountAction = new QAction(tr("Copy amount"), this);
-    QAction *editLabelAction = new QAction(tr("Edit label"), this);
-    QAction *showDetailsAction = new QAction(tr("Show transaction details"), this);
+     QAction *copyAddressAction = new QAction(tr("复制地址"), this);
+    QAction *copyLabelAction = new QAction(tr("复制标签"), this);
+    QAction *copyAmountAction = new QAction(tr("复印量"), this);
+    QAction *editLabelAction = new QAction(tr("编辑标签"), this);
+    QAction *showDetailsAction = new QAction(tr("显示交易细节"), this);
 
     contextMenu = new QMenu();
     contextMenu->addAction(copyAddressAction);
@@ -269,8 +271,8 @@ void TransactionView::exportClicked()
     // CSV is currently the only supported format
     QString filename = GUIUtil::getSaveFileName(
             this,
-            tr("Export Transaction Data"), QString(),
-            tr("Comma separated file (*.csv)"));
+            tr("出口交易数据"), QString(),
+            tr("逗号分隔的文件 (*.csv)"));
 
     if (filename.isNull()) return;
 

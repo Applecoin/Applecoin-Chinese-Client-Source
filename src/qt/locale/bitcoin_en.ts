@@ -6,18 +6,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Applecoin</source>
-        <translation>About Applecoin</translation>
+        <source>关于APC</source>
+        <translation>关于APC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Applecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Applecoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;APC&lt;/b&gt; 版本</source>
+        <translation>&lt;b&gt;APC&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2012 The Applecoin developers</source>
-        <translation>Copyright © 2009-2012 The Applecoin developers</translation>
+        <source>版权所有©2009-2012 APC的开发</source>
+        <translation>版权所有©2009-2012 APC的开发</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -39,38 +39,40 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>AddressBookPage</name>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Address Book</translation>
+        <source>通讯录</source>
+        <translation>通讯录</translation>
     </message>
     <message>
         <location line="+22"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Double-click to edit address or label</translation>
+        <source>双击以修改地址或标号</source>
+        <translation>双击以修改地址或标号</translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>Create a new address</source>
-        <translation>Create a new address</translation>
+        <source>创建一个新的地址</source>
+        <translation>创建一个新的地址</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copy the currently selected address to the system clipboard</translation>
+        <source>当前选定的地址复制到系统剪贴板
+</source>
+        <translation>当前选定的地址复制到系统剪贴板
+</translation>
     </message>
     <message>
         <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;New Address</translation>
+        <source>&amp;新地址</source>
+        <translation>&amp;新地址</translation>
     </message>
     <message>
         <location line="-46"/>
         <source>这些是接收付款您的APC地址。你可能想给一个不同的向每个发件人这样你就可以跟踪谁支付你的。</source>
-        <translation>These are your Applecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <translation>这些是接收付款您的APC地址。你可能想给一个不同的向每个发件人这样你就可以跟踪谁支付你的。</translation>
     </message>
     <message>
         <location line="+60"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copy Address</translation>
+        <source>&amp;复制地址</source>
+        <translation>&amp;复制地址</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -99,8 +101,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <source>&amp;验证邮件</source>
+        <translation>&amp;验证邮件</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -459,8 +461,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-5"/>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <source>&amp;验证邮件...</source>
+        <translation>&amp;验证邮件...</translation>
     </message>
     <message>
         <location line="-186"/>
@@ -479,8 +481,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Show / Hide</translation>
+        <source>&amp;节目 / Hide</source>
+        <translation>&amp;节目 / Hide</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -824,8 +826,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>&amp;Network</source>
-        <translation>&amp;Network</translation>
+        <source>&amp;网络</source>
+        <translation>&amp;网络</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1147,57 +1149,57 @@ Address: %4
     <message>
         <location line="+68"/>
         <source>使用OpenSSL版本</source>
-        <translation>Using OpenSSL version</translation>
+        <translation>使用OpenSSL版本</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>启动时间</source>
-        <translation>Startup time</translation>
+        <translation>启动时间</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>网络</source>
-        <translation>Network</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>连接数</source>
-        <translation>Number of connections</translation>
+        <translation>连接数</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>上TESTNET</source>
-        <translation>On testnet</translation>
+        <translation>上TESTNET</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>块链</source>
-        <translation>Block chain</translation>
+        <translation>块链</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>块的当前数量</source>
-        <translation>Current number of blocks</translation>
+        <translation>块的当前数量</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>预计总块</source>
-        <translation>Estimated total blocks</translation>
+        <translation>预计总块</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>最后一个数据块的时间</source>
-        <translation>Last block time</translation>
+        <translation>最后一个数据块的时间</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;开</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;开</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>命令行选项</source>
-        <translation>Command-line options</translation>
+        <translation>命令行选项</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1206,13 +1208,13 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Show</translation>
+        <source>&amp;节目</source>
+        <translation>&amp;节目</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <source>&amp;控制台</source>
+        <translation>&amp;控制台</translation>
     </message>
     <message>
         <location line="-260"/>
@@ -1246,18 +1248,18 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Applecoin RPC console.</source>
-        <translation>Welcome to the Applecoin RPC console.</translation>
+        <source>欢迎您到APC的RPC控制台。.</source>
+        <translation>欢迎您到APC的RPC控制台。.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
+        <source>使用上下箭头浏览历史， &lt;b&gt;Ctrl-L&lt;/b&gt; 清屏.</source>
+        <translation>使用上下箭头浏览历史， &lt;b&gt;Ctrl-L&lt;/b&gt; 清屏.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+        <source>类型 &lt;b&gt;帮助&lt;/b&gt; 对于可用的命令的概观。</source>
+        <translation>T类型 &lt;b&gt;帮助&lt;/b&gt; 对于可用的命令的概观。</translation>
     </message>
 </context>
 <context>
@@ -1508,8 +1510,8 @@ Address: %4
     <message>
         <location line="-87"/>
         <location line="+70"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <source>&amp;验证邮件</source>
+        <translation>&amp;验证邮件</translation>
     </message>
     <message>
         <location line="-64"/>
@@ -1528,8 +1530,8 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Reset all verify message fields</source>
-        <translation>Reset all verify message fields</translation>
+        <source>重设所有验证信息栏</source>
+        <translation>重设所有验证信息栏</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
@@ -1885,8 +1887,8 @@ Address: %4
     </message>
     <message>
         <location line="+43"/>
-        <source>Received with</source>
-        <translation>Received with</translation>
+        <source>与接收</source>
+        <translation>与接收</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1954,18 +1956,18 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>This week</source>
-        <translation>This week</translation>
+        <source>本星期</source>
+        <translation>本星期</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>This month</source>
-        <translation>This month</translation>
+        <source>这个月</source>
+        <translation>这个月</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Last month</source>
-        <translation>Last month</translation>
+        <source>上个月</source>
+        <translation>上个月</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1979,8 +1981,8 @@ Address: %4
     </message>
     <message>
         <location line="+11"/>
-        <source>Received with</source>
-        <translation>Received with</translation>
+        <source>与接收</source>
+        <translation>与接收</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2004,8 +2006,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Enter address or label to search</translation>
+        <source>输入网址或标签搜索</source>
+        <translation>输入网址或标签搜索</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2014,13 +2016,13 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>Copy address</source>
-        <translation>Copy address</translation>
+        <source>复制地址</source>
+        <translation>复制地址</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy label</source>
-        <translation>Copy label</translation>
+        <source>复制标签</source>
+        <translation>复制标签</translation>
     </message>
     <message>
         <location line="+1"/>

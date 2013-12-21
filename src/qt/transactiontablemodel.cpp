@@ -223,7 +223,7 @@ TransactionTableModel::TransactionTableModel(CWallet* wallet, WalletModel *paren
         priv(new TransactionTablePriv(wallet, this)),
         cachedNumBlocks(0)
 {
-    columns << QString() << tr("Date") << tr("Type") << tr("Address") << tr("Amount");
+    columns << QString() << tr("日期") << tr("类型") << tr("地址") << tr("数量");
 
     priv->refreshWallet();
 
@@ -280,19 +280,19 @@ QString TransactionTableModel::formatTxStatus(const TransactionRecord *wtx) cons
     switch(wtx->status.status)
     {
     case TransactionStatus::OpenUntilBlock:
-        status = tr("Open for %n block(s)","",wtx->status.open_for);
+        status = tr("开放 %n 块(s)","",wtx->status.open_for);
         break;
     case TransactionStatus::OpenUntilDate:
-        status = tr("Open until %1").arg(GUIUtil::dateTimeStr(wtx->status.open_for));
+        status = tr("直到开 %1").arg(GUIUtil::dateTimeStr(wtx->status.open_for));
         break;
     case TransactionStatus::Offline:
-        status = tr("Offline (%1 confirmations)").arg(wtx->status.depth);
+        status = tr("当前离线 (%1 确认)").arg(wtx->status.depth);
         break;
     case TransactionStatus::Unconfirmed:
-        status = tr("Unconfirmed (%1 of %2 confirmations)").arg(wtx->status.depth).arg(TransactionRecord::NumConfirmations);
+        status = tr("未经证实的 (%1 of %2 确认)").arg(wtx->status.depth).arg(TransactionRecord::NumConfirmations);
         break;
     case TransactionStatus::HaveConfirmations:
-        status = tr("Confirmed (%1 confirmations)").arg(wtx->status.depth);
+        status = tr("确认 (%1 确认)").arg(wtx->status.depth);
         break;
     }
     if(wtx->type == TransactionRecord::Generated)
@@ -300,15 +300,15 @@ QString TransactionTableModel::formatTxStatus(const TransactionRecord *wtx) cons
         switch(wtx->status.maturity)
         {
         case TransactionStatus::Immature:
-            status += "\n" + tr("Mined balance will be available when it matures in %n more block(s)", "", wtx->status.matures_in);
+            status += "\n" + tr("当它成熟的开采结余可用 %n 多块(s)", "", wtx->status.matures_in);
             break;
         case TransactionStatus::Mature:
             break;
         case TransactionStatus::MaturesWarning:
-            status += "\n" + tr("This block was not received by any other nodes and will probably not be accepted!");
+            status += "\n" + tr("T没有收到任何其他节点自己的块，将可能不被接受！");
             break;
         case TransactionStatus::NotAccepted:
-            status += "\n" + tr("Generated but not accepted");
+            status += "\n" + tr("产生，但不获接纳");
             break;
         }
     }
@@ -351,16 +351,16 @@ QString TransactionTableModel::formatTxType(const TransactionRecord *wtx) const
     switch(wtx->type)
     {
     case TransactionRecord::RecvWithAddress:
-        return tr("Received with");
+        return tr("与接收");
     case TransactionRecord::RecvFromOther:
-        return tr("Received from");
+        return tr("从收到的");
     case TransactionRecord::SendToAddress:
     case TransactionRecord::SendToOther:
-        return tr("Sent to");
+        return tr("发送给");
     case TransactionRecord::SendToSelf:
-        return tr("Payment to yourself");
+        return tr("支付给自己");
     case TransactionRecord::Generated:
-        return tr("Mined");
+        return tr("开采");
     default:
         return QString();
     }
